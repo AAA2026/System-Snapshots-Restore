@@ -1,4 +1,4 @@
-# xv6 File System Snapshot & Restore Utility
+# xv6 File System Snapshot & Restore
 
 ## Description
 
