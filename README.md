@@ -2,7 +2,7 @@
 
 ## Description
 
-This project introduces a file system snapshot and restore capability to the xv6 operating system, a simple, Unix-like teaching operating system developed for MIT's 6.828 course. Inspired by utilities like Timeshift in modern Linux distributions, this feature allows users to capture the state of the xv6 file system at a specific point in time and revert back to that state later. This provides a basic mechanism for system recovery in case of accidental data loss, configuration errors, or other unwanted changes within the xv6 environment. The implementation consists of two user-level programs, `snapshot` and `restore`, which are integrated into the standard xv6 build process and are callable directly from the xv6 shell.
+This project introduces a file system snapshot and restore capability to the xv6 operating system, a simple, Unix-like teaching operating system inspired by MIT's 6.828 course. Inspired by utilities like Timeshift in modern Linux distributions, this feature allows users to capture the state of the xv6 file system at a specific point in time and revert back to that state later. This provides a basic mechanism for system recovery in case of accidental data loss, configuration errors, or other unwanted changes within the xv6 environment. The implementation consists of two user-level programs, `snapshot` and `restore`, which are integrated into the standard xv6 build process and are callable directly from the xv6 shell.
 
 ## Features
 
