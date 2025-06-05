@@ -86,3 +86,4 @@ Once xv6 is running with the snapshot/restore programs installed, you can use th
 *   **Standard C Library (within xv6):** The programs are written in C and use standard library functions available in xv6.
 *   **Build Tools:** A standard C compiler (like GCC) and `make` are required to build the modified xv6 system.
 *   **QEMU:** Required to run the xv6 operating system if you don't have alternative hardware support.
+
