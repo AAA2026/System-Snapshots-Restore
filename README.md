@@ -15,7 +15,7 @@ This project introduces a file system snapshot and restore capability to the xv6
 
 ## Installation and Setup
 
-To use the snapshot and restore functionality, you need to integrate the provided source files (`snapshot.c`, `restore.c`) into the xv6 source tree and rebuild the operating system. The necessary modifications typically involve:
+### To use the snapshot and restore functionality, you need to integrate the provided source files (`snapshot.c`, `restore.c`) into the xv6 source tree and rebuild the operating system. The necessary modifications typically involve:
 
 1.  **Place Source Files:** Copy `snapshot.c` and `restore.c` into the `user/` directory of your xv6 source code.
 2.  **Update Makefile:** Edit the main `Makefile` in the root of the xv6 source directory. Add `_snapshot` and `_restore` to the `UPROGS` list. This ensures that the new programs are compiled and included in the file system image.
